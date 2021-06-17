@@ -15,7 +15,7 @@ public class Ex03 {
 		InputStreamReader isr = new InputStreamReader(is, "MS949");
 		BufferedReader br = new BufferedReader(isr);
 		
-		
+		 
 		String line ="";
 		
 		while(true) {

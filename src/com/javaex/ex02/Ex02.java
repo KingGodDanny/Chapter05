@@ -13,7 +13,7 @@ public class Ex02 {
 		Reader fr = new FileReader("C:\\Javastudy\\file\\song.txt");
 		BufferedReader br = new BufferedReader(fr);
 		
-		
+		 
 		String str = "";
 		while(true) {
 			str = br.readLine();   //한줄씩 읽어온다. 줄바꿈기호는 제외해서 읽어온다.

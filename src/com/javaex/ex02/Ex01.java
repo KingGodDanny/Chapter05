@@ -17,7 +17,7 @@ public class Ex01 {
 		bw.write("어서모이자");
 		bw.newLine();
 		bw.write("선생님이 우리를");
-		bw.newLine();
+		bw.newLine(); 
 		bw.write("기다리신다.");
 		
 		
