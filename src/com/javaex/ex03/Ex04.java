@@ -16,10 +16,13 @@ public class Ex04 {
 		BufferedReader bfr = new BufferedReader(fr);
 		
 		
+		
+		
 		List<Person> pList = new ArrayList<Person>(); 
 		//name hp company를 저장할 도장을 찍을 클래스를 만든다
 		//Person을 메모리에 올려서 관리할것이다.
 		
+		//Person d =new Person("대니","010-6284-3410","백수다");
 		
 		String line = "";
 		while(true) {
@@ -46,6 +49,17 @@ public class Ex04 {
 		
 		
 		
+		//pList.add(3,d);
+		
+//		Writer fw = new FileWriter("C:\\Javastudy\\file\\PhoneDB.txt");
+//		BufferedWriter bw = new BufferedWriter(fw);
+//		for(int i=0;i<pList.size();i++) {
+//			bw.write(pList.get(i).save());
+//			bw.newLine();
+//		}
+		
+		
+		
 			for(int i=0; i<pList.size(); i++) {
 				System.out.println("이름: " + pList.get(i).getName());
 				System.out.println("핸드폰: " + pList.get(i).getHp());
@@ -54,16 +68,14 @@ public class Ex04 {
 			}
 		
 		
-			System.out.println("---------------------------------");
 			
-			System.out.println("정우성정보: " + pList.get(1).getName() + " , 핸드폰: " + pList.get(1).getHp());
 		
-		
-		
+			
+			
 
 		
 		
-		
+//		bw.close();
 		bfr.close();
 	}
 

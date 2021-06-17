@@ -69,6 +69,10 @@ public class Person {
 		System.out.println("");
 		
 	}
+	public String save() {
+		return name+","+hp+","+company;
+				
+	}
 	
 	
 }
